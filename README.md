@@ -1,11 +1,8 @@
-# Poke 芒 Mobile – React Native E-commerce App 🛒🔥
-
-![Poke 芒 Banner](https://via.placeholder.com/1200x400/FF4136/FFFFFF?text=Poke+Mang+Mobile+App)
-*(Replace with your own banner or hero image for extra flair)*
+# Poke 芒 Mobile – React Native E-commerce App
 
 A mobile extension of my Next.js Pokémon-themed e-commerce web app. Built with **React Native** + **Expo Router** to deliver a smooth, native experience on iOS and Android.
 
-## Why Mobile? 📱
+## Why Mobile?
 
 While the web version rocks on desktops, going mobile unlocks real perks:
 - **Live GPS** for location-based features
@@ -33,7 +30,7 @@ Developed almost entirely with AI assistance – ported features in ~2 days vs. 
   </tr>
 </table>
 
-Here are some inspiration shots from similar modern e-commerce / Pokémon apps (clean UI vibes you could aim for):
+
 
 <grok-card data-id="f716b1" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
 
@@ -54,7 +51,8 @@ Here are some inspiration shots from similar modern e-commerce / Pokémon apps (
 
 - React Native
 - Expo (Router, SDK)
-- (Add your other libs: Redux? Firebase? etc.)
+- Redux
+- Supabase
 
 ## Getting Started
 
