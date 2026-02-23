@@ -1,16 +1,69 @@
-This is a mobile app developed with React Native - an extended frontend project to my next.js ecommerce web Poke 芒
+# Poke 芒 Mobile – React Native E-commerce App 🛒🔥
 
-Most of the web features are copied to this project in order to take advantages of some convenients of mobile phone.
+![Poke 芒 Banner](https://via.placeholder.com/1200x400/FF4136/FFFFFF?text=Poke+Mang+Mobile+App)
+*(Replace with your own banner or hero image for extra flair)*
 
-The main difference in between developing with next.js and react native is that website relies on HTML elements to create user interface but in react native, it relies on native components that work differently in mobile app because it depends on mobile OS environment. The advantage of using React Native is that One codebase runs on both platforms — no separate iOS and Android apps needed!
+A mobile extension of my Next.js Pokémon-themed e-commerce web app. Built with **React Native** + **Expo Router** to deliver a smooth, native experience on iOS and Android.
 
-The key difference is that this project is almost developed with AI, as most of the features were aleady launched in my next.js project, but with AI, it speeded up 3 to 4 times time taken - 10 days before vs around 2 days now, almost nothing new but replacing `<div></div>` with `<View></View>`, although routing in react native does take some time to get into.
+## Why Mobile? 📱
 
-The most interesting part in mobile app is that it brings in advantages of great mobility whenever and wherever people are not along with their laptops. This brings in live GPS of users' latitude and longtitude, photos taking, live chat with others, etc that are not easily accessible from computers. All in all, these make it worthy to create a mobile apps instead of only using websites.
+While the web version rocks on desktops, going mobile unlocks real perks:
+- **Live GPS** for location-based features
+- Camera access for photo uploads or AR previews
+- Push notifications & live chat
+- Offline support potential
+- One codebase → both iOS & Android
 
-Some copied features:
+Developed almost entirely with AI assistance – ported features in ~2 days vs. 10 days manually!
 
-![alt text](about-1.jpg)
-![alt text](shop-1.jpg)
-![alt text](cart-1.jpg)
-![alt text](favorites-1.jpg)
+## Key Differences from Web Version
+
+- Web → HTML/CSS/JS elements
+- Mobile → Native components (View, Text, Image, etc.)
+- Faster iteration once setup is done (Expo magic!)
+
+## Screenshots of Copied Features
+
+<table>
+  <tr>
+    <td><img src="favorites.jpg" alt="Favorites screen" width="220"/></td>
+    <td><img src="about.jpg" alt="About screen" width="220"/></td>
+    <td><img src="shop.jpg" alt="Shop screen" width="220"/></td>
+    <td><img src="cart.jpg" alt="Cart screen" width="220"/></td>
+  </tr>
+</table>
+
+Here are some inspiration shots from similar modern e-commerce / Pokémon apps (clean UI vibes you could aim for):
+
+<grok-card data-id="f716b1" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
+
+
+
+<grok-card data-id="ab0a8b" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
+
+
+
+<grok-card data-id="1c3363" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
+
+
+
+<grok-card data-id="f2b5b1" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
+
+
+## Tech Stack
+
+- React Native
+- Expo (Router, SDK)
+- (Add your other libs: Redux? Firebase? etc.)
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/poke-mang-mobile.git
+
+# Install deps
+npm install
+
+# Run on device/emulator
+npx expo start
