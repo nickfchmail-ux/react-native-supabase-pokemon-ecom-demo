@@ -1,33 +1,16 @@
-# Poke 芒 Mobile 🛒✨
+This is a mobile app developed with React Native - an extended frontend project to my next.js ecommerce web Poke 芒
 
-A React Native mobile app — the natural extension of my Next.js Pokémon e-commerce web project!
+Most of the web features are copied to this project in order to take advantages of some convenients of mobile phone.
 
-Most web features are ported here to take full advantage of mobile conveniences like on-the-go access.
+The main difference in between developing with next.js and react native is that website relies on HTML elements to create user interface but in react native, it relies on native components that work differently in mobile app because it depends on mobile OS environment. The advantage of using React Native is that One codebase runs on both platforms — no separate iOS and Android apps needed!
 
-## Why React Native? 📱
+The key difference is that this project is almost developed with AI, as most of the features were aleady launched in my next.js project, but with AI, it speeded up 3 to 4 times time taken - 10 days before vs around 2 days now, almost nothing new but replacing `<div></div>` with `<View></View>`, although routing in react native does take some time to get into.
 
-Websites rely on HTML/CSS elements, but React Native uses native components that feel truly integrated with iOS and Android.
-**Big win**: One codebase runs on both platforms — no separate iOS and Android apps needed!
+The most interesting part in mobile app is that it brings in advantages of great mobility whenever and wherever people are not along with their laptops. This brings in live GPS of users' latitude and longtitude, photos taking, live chat with others, etc that are not easily accessible from computers. All in all, these make it worthy to create a mobile apps instead of only using websites.
 
-## Built Almost Entirely with AI 🚀
+Some copied features:
 
-Most features already existed in the Next.js version, so this was mainly about swapping `<div>` for `<View>`, `<p>` for `<Text>`, etc.
-AI sped things up dramatically — from ~10 days of manual work down to just ~2 days.
-(The only real learning curve was mastering Expo Router!)
-
-## What Makes Mobile Special
-
-The real magic comes from mobility: use the app anytime, anywhere — no laptop required.
-This unlocks powerful features websites struggle with:
-- Live GPS (latitude & longitude tracking)
-- Camera for instant photo uploads
-- Live chat with other users
-- Push notifications & more
-
-All of this makes a dedicated mobile app well worth building.
-
-## Screenshots of Copied Features
-
-| Favorites                          | About                            | Shop                             | Cart                             |
-|------------------------------------|----------------------------------|----------------------------------|----------------------------------|
-| ![Favorites screen](favorites.jpg) | ![About screen](about.jpg)       | ![Shop screen](shop.jpg)         | ![Cart screen](cart.jpg)         |
+![alt text](about-1.jpg)
+![alt text](shop-1.jpg)
+![alt text](cart-1.jpg)
+![alt text](favorites-1.jpg)
