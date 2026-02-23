@@ -1,69 +1,33 @@
-# Poke 芒 Mobile – React Native E-commerce App 🛒🔥
+# Poke 芒 Mobile 🛒✨
 
-![Poke 芒 Banner](https://via.placeholder.com/1200x400/FF4136/FFFFFF?text=Poke+Mang+Mobile+App)
-*(Replace with your own banner or hero image for extra flair)*
+A React Native mobile app — the natural extension of my Next.js Pokémon e-commerce web project!
 
-A mobile extension of my Next.js Pokémon-themed e-commerce web app. Built with **React Native** + **Expo Router** to deliver a smooth, native experience on iOS and Android.
+Most web features are ported here to take full advantage of mobile conveniences like on-the-go access.
 
-## Why Mobile? 📱
+## Why React Native? 📱
 
-While the web version rocks on desktops, going mobile unlocks real perks:
-- **Live GPS** for location-based features
-- Camera access for photo uploads or AR previews
-- Push notifications & live chat
-- Offline support potential
-- One codebase → both iOS & Android
+Websites rely on HTML/CSS elements, but React Native uses native components that feel truly integrated with iOS and Android.
+**Big win**: One codebase runs on both platforms — no separate iOS and Android apps needed!
 
-Developed almost entirely with AI assistance – ported features in ~2 days vs. 10 days manually!
+## Built Almost Entirely with AI 🚀
 
-## Key Differences from Web Version
+Most features already existed in the Next.js version, so this was mainly about swapping `<div>` for `<View>`, `<p>` for `<Text>`, etc.
+AI sped things up dramatically — from ~10 days of manual work down to just ~2 days.
+(The only real learning curve was mastering Expo Router!)
 
-- Web → HTML/CSS/JS elements
-- Mobile → Native components (View, Text, Image, etc.)
-- Faster iteration once setup is done (Expo magic!)
+## What Makes Mobile Special
+
+The real magic comes from mobility: use the app anytime, anywhere — no laptop required.
+This unlocks powerful features websites struggle with:
+- Live GPS (latitude & longitude tracking)
+- Camera for instant photo uploads
+- Live chat with other users
+- Push notifications & more
+
+All of this makes a dedicated mobile app well worth building.
 
 ## Screenshots of Copied Features
 
-<table>
-  <tr>
-    <td><img src="favorites.jpg" alt="Favorites screen" width="220"/></td>
-    <td><img src="about.jpg" alt="About screen" width="220"/></td>
-    <td><img src="shop.jpg" alt="Shop screen" width="220"/></td>
-    <td><img src="cart.jpg" alt="Cart screen" width="220"/></td>
-  </tr>
-</table>
-
-Here are some inspiration shots from similar modern e-commerce / Pokémon apps (clean UI vibes you could aim for):
-
-<grok-card data-id="f716b1" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
-
-
-
-<grok-card data-id="ab0a8b" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
-
-
-
-<grok-card data-id="1c3363" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
-
-
-
-<grok-card data-id="f2b5b1" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
-
-
-## Tech Stack
-
-- React Native
-- Expo (Router, SDK)
-- (Add your other libs: Redux? Firebase? etc.)
-
-## Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/poke-mang-mobile.git
-
-# Install deps
-npm install
-
-# Run on device/emulator
-npx expo start
+| Favorites                          | About                            | Shop                             | Cart                             |
+|------------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| ![Favorites screen](favorites.jpg) | ![About screen](about.jpg)       | ![Shop screen](shop.jpg)         | ![Cart screen](cart.jpg)         |
