@@ -23,8 +23,8 @@ Developed almost entirely with AI assistance – ported features in ~2 days vs. 
 
 <table>
   <tr>
-    <td><img src="favorites.jpg" alt="Favorites screen" width="220"/></td>
     <td><img src="about.jpg" alt="About screen" width="220"/></td>
+    <td><img src="favorites.jpg" alt="Favorites screen" width="220"/></td>
     <td><img src="shop.jpg" alt="Shop screen" width="220"/></td>
     <td><img src="cart.jpg" alt="Cart screen" width="220"/></td>
   </tr>
