@@ -11,7 +11,7 @@ While the web version rocks on desktops, going mobile unlocks real perks:
 - Offline support potential
 - One codebase → both iOS & Android
 
-Developed almost entirely with AI assistance – ported features in ~2 days vs. 10 days manually!
+Developed almost entirely with AI assistance – ported features in a few days vs. 10 days manually!
 
 ## Key Differences from Web Version
 
